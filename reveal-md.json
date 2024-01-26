@@ -1,0 +1,16 @@
+{
+  "title": "Virto Slides",
+  "theme": "assets/styles/virto-theme.css",
+  "css": ["assets/styles/custom-classes.css"],
+  "assetsDir": ".",
+  "separator": "\r?\n---\r?\n",
+  "verticalSeparator": "\r?\n---v\r?\n",
+  "highlightTheme": "monokai",
+  "listingTemplate": "./assets/templates/listing-template.html",
+  "template": "./assets/templates/slide-template.html",
+  "host": "localhost",
+  "staticDir": "build",
+  "staticDirs": ["assets"],
+  "preprocessor": null,
+  "glob": "slides/**/*.md"
+}
