@@ -4,7 +4,23 @@ description: This slides let audience understand how to use governance in Kreivo
 duration: 2.5 minutes
 ---
 
-# Governance at Communities
+# How do you solve Governance for collectives?
+
+---
+
+## Before Kreivo
+
+<pba-flex center>
+
+- Multisig<!-- .element: class="fragment" data-fragment-index="0" -->
+- Off-chain<!-- .element: class="fragment" data-fragment-index="1" -->
+- Setup a collective on a parachain (?)<!-- .element: class="fragment" data-fragment-index="2" -->
+
+</pba-flex>
+
+---
+
+## Introducing Communities
 
 ---
 
@@ -14,45 +30,30 @@ Is a self-governed entity with a sovereign account that can act on-chain via gov
 
 ---
 
-<pba-cols>
-
-<pba-col>
-
-## Before Kreivo
+## After Kreivo Communities
 
 <pba-flex center>
-
-- Multisig<!-- .element: class="fragment" data-fragment-index="0" -->
-- Off-chain<!-- .element: class="fragment" data-fragment-index="1" -->
-
-</pba-flex>
-
-</pba-col>
-
-<pba-col>
-
-## After Kreivo
-
-<pba-flex>
 
 <ul>
   <li>
   
   `referenda::submit`
   
-  </li><!-- .element: class="fragment" data-fragment-index="3" -->
+  </li><!-- .element: class="fragment" data-fragment-index="0" -->
   <li>
   
   `communities::vote`
   
-  </li><!-- .element: class="fragment" data-fragment-index="4" -->
+  </li><!-- .element: class="fragment" data-fragment-index="1" -->
+
+  <li>
+
+  ✅
+
+  </li><!-- .element: class="fragment" data-fragment-index="2" -->
 </ul>
 
 </pba-flex>
-
-</pba-col>
-
-</pba-cols>
 
 ---
 
@@ -60,40 +61,16 @@ Is a self-governed entity with a sovereign account that can act on-chain via gov
 
 <pba-flex center>
 
-- **Membership**
-- **Native token**
-- **Community Asset**
-- **Ranked**
+- **Membership** One memberhsip, one vote.
+- **Native token** It's like [OpenGov](https://polkadot.network/features/opengov/).
+- **Community Asset**: You vote using your community-owned assets (`VIRTO`, `CUBO`, etc.)
+- **Ranked**: It's like **`RankedCollective`s** (e.g. Fellowship).
 
 </pba-flex>
 
----v
-
-### Membership
-
-One memberhsip, one vote.
-
----v
-
-### Native token
-
-It's like [OpenGov](https://polkadot.network/features/opengov/).
-
----v
-
-### Community Asset
-
-Vote using your community-owned assets (`VIRTO`, `CUBO`, etc.)
-
----v
-
-### Ranked
-
-One membership, `n` votes, being `n` the voter's rank.
-
 ---
 
-## Ok, but what's all of this for?
+## Ok, but what's the use of all this?
 
 ---v
 
@@ -142,4 +119,28 @@ All that through the enabled governance at your community.
 
 ---
 
-# Questions?
+![Step: Create Community](/assets/img/logo/aag-demo/governance/create-community.png)
+
+---
+
+![Step: Prepare extrinsic](/assets/img/logo/aag-demo/governance/prepare-extrinsic.png)
+
+---
+
+![Step: Submit proposal](/assets/img/logo/aag-demo/governance/submit-proposal.png)
+
+---
+
+![Step: Vote as Community Member](/assets/img/logo/aag-demo/governance/vote-community.png)
+
+---
+
+## ✅
+
+---
+
+## Live on Q1'24
+
+---
+
+## Upstreaming to `polkadot-sdk`
